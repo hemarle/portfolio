@@ -31,7 +31,6 @@ padding-bottom: 40px;
     justify-content: space-around;
 }
 .portfolio__CardContent{
-    display: none;
     text-align: center;
     color: white;
     position: absolute;
@@ -91,6 +90,7 @@ height: 100%;
 margin: 8vh auto;
    }
     .portfolio__Content{
+    display: none;
  width: 100%;
         /* justify-content: space-between; */
     }
