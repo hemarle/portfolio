@@ -1,0 +1,67 @@
+{
+    "skills":[
+            {
+                "name" : "HTML5",
+                "image" : " ./images/html5.png"
+            
+            },
+           {
+               "name": "CSS 3",
+               "image":" ./images/css3.png"
+           },
+           {
+               "name":"Firebase",
+               "image":"./images/firebase.png"
+           },
+           {
+               "name":"Git",
+               "image":"./images/git.png"
+           },
+           {
+               "name":"JavaScript",
+               "image":"./images/javascript.png"
+           },
+           {
+               "name":"React",
+               "image":"./images/react.png"
+           }
+    ],
+    "learning":[
+        {
+            "name":"react native",
+            "image":"./images/react.png"
+        }
+    ],
+    "projects":[
+        {
+            "title":"Space",
+            "image":"./images/space.jpeg",
+            "github":"https://github.com/hemarle/space",
+            "live":" https://space-clone.netlify.app/",
+            "summary":"A space travel website"
+        },
+        {
+            "title":"Trade safe gift",
+            "image":"",
+            "github":"https://github.com/hemarle/tradesafegift",
+            "live":"",
+            "summary":"Clone of trade safe gift"
+        },
+        {
+            "title":"Omuti-9ja",
+            "image":"",
+            "github":"",
+            "live":"",
+            "summary":"A beer website"
+        },
+        {
+            "title":"My Portfolio",
+            "image":"",
+            "github":"",
+            "live":"",
+            "summary":"My portfolio website"
+        }
+    ]
+   
+}
+

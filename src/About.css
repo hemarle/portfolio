@@ -1,0 +1,26 @@
+.about{
+    background:linear-gradient(90.18deg, #1D1D1D 31.59%, #1D1D1D 90.35%, #1D1D1D 90.35%);
+    padding: 3vh 10vw;
+    color: white;
+    text-align: justify;
+}
+.about h2{
+    text-align:center;
+    font-size: 2rem;
+}
+.about p{
+    font-family: 'Open Sans', sans-serif;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+margin-top: 10px;
+
+}
+@media screen and (min-width:1440px) {
+    .about h2{
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+}

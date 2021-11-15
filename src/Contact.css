@@ -1,0 +1,111 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    /* background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0) 0%, rgba(0, 0, 0, 0.16) 100%), #FFFFFF; */
+}
+.contact h2{
+    border:5px solid;
+    margin: 2vh 0px;
+    padding: 20px 80px;
+    font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.3554em;
+text-align: center;
+
+}
+.contact p{
+    max-width: 80vw;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input, textarea{
+    outline: none;
+    border:0px solid;
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    margin-top: 3vh;
+    background-color: transparent;
+    height: 43px;
+    min-width: 277px;
+    padding:10px;
+}
+textarea{
+    height: 15vh;
+    resize: none;
+}
+
+input[type='submit']{
+    border: none;
+    border-inline: 2px solid;
+    min-width: 100px;
+    /* max-width:120px; */
+    margin-inline: auto;
+    font-size: 1.5rem;
+    transition: 1s linear;
+    cursor: pointer;
+}
+input[type='submit']:hover{
+    background-color: rgb(54, 167, 233);
+}
+
+::placeholder{
+    font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0.04em;
+text-align: left;
+
+}
+@media screen and (min-width:768px) {
+    .contact{
+        padding-bottom: 5vh;
+        /* align-items: flex-start; */
+    }
+    .contact h2{
+        margin: 3vh auto;
+        font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0.3554em;
+text-align: center;
+
+    }
+    .contact p{
+        margin-bottom: 3vh;
+        margin-inline:auto ;
+        font-size: 1.5rem;
+    }
+ input{
+ width:70vw;
+ margin-bottom: 5vh;    
+ /* margin-left: 20vw; */
+ }
+ input[type='submit']{
+     max-width: 120px;
+     /* display: block; */
+     /* margin-inline: auto; */
+ }   
+}

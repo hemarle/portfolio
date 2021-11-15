@@ -1,0 +1,124 @@
+.skill{
+display: flex;
+display: none;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 1vh 0px;
+padding-bottom: 5vh;
+}
+.skill__Title{
+   border:7px solid black;
+   padding:10px 15px;
+   font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.4354em;
+text-align: center;
+
+}
+.skill__Header{
+    font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 37px;
+letter-spacing: 0.1854em;
+
+margin-top: 20px;
+
+
+}
+.skill__Content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skill__Card{
+    margin-top: 50px;
+   
+}
+.skill__Card p{
+    font-family: 'Montserrat', sans-serif;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0.1354em;
+text-align: center;
+
+margin-top: 10px;
+
+}
+.skill__CardImage{
+    width: 85px;
+}
+.skill__Using{
+    display: none;
+}
+.skill__Using:nth-child(2){
+    display: block;
+}
+@media screen and (min-width:1440px) {
+ .skill{
+     display: flex;
+     align-items: flex-start;
+     padding-inline: 5vw;
+     width: 100%;
+     /* justify-content: left; */
+ }
+    
+    .skill__Content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .skill__Card{
+        /* margin-right: 8vw; */
+        height: 100px;
+        /* width: 100px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        margin: 5vh 5vw;
+    }
+    .skill__CardImage{
+        width: 100%;
+        height: 100%;
+    
+    }
+.skill__Header{
+font-family: "Montserrat", sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 37px;
+letter-spacing: 0.1854em;
+text-align: left;
+
+}
+
+.skill__Using{
+    display: block;
+
+    margin-bottom: 10vh;
+}
+.skill__Title{
+    margin-inline: auto;
+}
+.skill__Card p{
+    position: absolute;
+bottom: 0%;
+transform: translateY(100%);
+/* width: 100%;
+height: 100%; */
+}
+}

@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+min-height: 10vh;
+background-color: black;
+color: white;
+}
+.footer__Social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}

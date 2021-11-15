@@ -1,0 +1,108 @@
+.main{
+    display: flex;
+    position: relative;
+    /* color: white; */
+}
+.main__Image{
+    margin-inline: auto;
+}
+.main__Content{
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #d7d7d7b2;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+
+.main__Greeting{
+    font-family: 'Raleway', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+
+}
+.main__Name{
+    font-family: 'Raleway', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 41px;
+
+}
+
+.main__Role{
+font-family: 'Raleway', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 800;
+line-height: 14px;
+letter-spacing: 0em;
+color: #909090;
+
+
+}
+.main__Social{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width:1440px) {
+    .main{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        min-height: 40vh;
+        color: black;
+    }
+    .main__Content{
+        position: relative;
+flex-direction: column;        
+flex: 0.5; 
+align-items: center;
+background-color: transparent;
+}
+.main__Details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.main__Greeting{
+    font-size: 40px;
+}
+.main__Name{
+    margin-top: 9vh;
+    margin-bottom: 3vh;
+    font-size: 80px;
+}
+.main__Role{
+    font-size: 25px;
+    line-height: 29.35px;
+    margin-bottom:14vh;
+}
+
+.main__Image{
+    flex: 0.5;
+
+}
+.main__Social{
+    width: 100%;
+    flex-direction: row;
+ justify-content: space-around;
+    }
+    .MuiSvgIcon-root{
+        font-size: 2.5rem !important;
+    }
+    .main .MuiSvgIcon-root{
+        font-size: 3.5rem !important;
+        color: #909090 !important;
+    }
+
+}
+
